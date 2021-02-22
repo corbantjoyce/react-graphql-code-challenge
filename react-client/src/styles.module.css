@@ -1,12 +1,19 @@
 .name {
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .email {
-    font: medium;
-    color: red;
+    font-size: medium;
+    color: blue;
 }
 
 .phone {
-    font: small;
+    font-size: small;
+    color: red;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
 }
