@@ -38,11 +38,11 @@ function Users() {
                 aria-controls="panel1a-content"
                 id="panel1a-header"
                 >
-                    <Typography className={styles.name} >{user.name}</Typography>
+                    <Typography className={styles.name}>{user.name}</Typography>
                 </AccordionSummary>
-                <AccordionDetails>
-                    <Typography className={styles.email} >Email: {user.email}</Typography>
-                    <Typography className={styles.phone} >Phone: {user.phone}</Typography>
+                <AccordionDetails className={styles.flex}>
+                    <Typography className={styles.email}>Email: {user.email}</Typography>
+                    <Typography className={styles.phone}>Phone: {user.phone}</Typography>
                 </AccordionDetails>
             </Accordion>
         </div>
