@@ -1,12 +1,12 @@
 .name {
     font-weight: bold;
+    font-size: larger;
 }
 
 .email {
-    font: medium;
-    color: red;
+    font-size: medium;
 }
 
 .phone {
-    font: small;
+    font-size: small;
 }
